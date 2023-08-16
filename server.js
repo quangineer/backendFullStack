@@ -11,7 +11,9 @@ const cors = require("cors");
 app.use(cors());
 
 //create an URI to connect with mongoDB:
-// const URI = "mongodb://127.0.0.1:27017/FE"; //locally
+//locally:
+// const URI = "mongodb://127.0.0.1:27017/BookList"; 
+//Atlas cloud:
 const URI = "mongodb+srv://nguyenq25:Dr21JWUrJ7qx7aFf@hoangquannguyen01.xves5vi.mongodb.net/hoangquannguyen-300371379";
 
 //connect with mongoDB from this backend:
